@@ -170,3 +170,12 @@ We welcome contributions from developers! Please follow the steps below to contr
    - Create a new branch for your feature or bug fix.
    ```bash
    git checkout -b feature-name
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgements
+Thanks to our all contributors who have helped in making this project better.
+Special thanks to the open-source community for providing useful libraries and tools.
+## Contact
+For any issues, suggestions, or questions, please feel free to contact the repository owner at our email or open an issue in this repository.
