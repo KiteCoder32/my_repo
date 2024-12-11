@@ -39,7 +39,7 @@ The **Library Management System** (LMS) is a software application designed to ma
 - **Backend**: java
 - **Database**: MySQL (SQL) for storing book, user, and transaction data
 - **Authentication**: JWT or Session-based authentication for secure access
-- **Others**: Docker for containerization (optional), Git for version control
+- **Others**: Git for version control
 
 ---
 
