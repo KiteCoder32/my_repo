@@ -172,7 +172,7 @@ We welcome contributions from developers! Please follow the steps below to contr
    git checkout -b feature-name
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+Right now this project has no license.
 
 ## Acknowledgements
 Thanks to our all contributors who have helped in making this project better.
