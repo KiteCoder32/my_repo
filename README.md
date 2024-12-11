@@ -35,9 +35,9 @@ The **Library Management System** (LMS) is a software application designed to ma
 
 ## Technologies Used
 
-- **Frontend**: HTML, CSS, JavaScript (React/Angular/Vue.js - depends on implementation choice)
-- **Backend**: Node.js with Express.js (or Python Flask/Django if using Python)
-- **Database**: MongoDB (NoSQL) or MySQL (SQL) for storing book, user, and transaction data
+- **Frontend**: HTML, CSS, jframe.
+- **Backend**: java
+- **Database**: MySQL (SQL) for storing book, user, and transaction data
 - **Authentication**: JWT or Session-based authentication for secure access
 - **Others**: Docker for containerization (optional), Git for version control
 
@@ -47,33 +47,27 @@ The **Library Management System** (LMS) is a software application designed to ma
 
 ### Prerequisites
 
-- Node.js (for JavaScript-based systems)
-- MongoDB or MySQL (for database management)
-- npm or yarn (for package management)
+- MySQL (for database management)
+- npm (for package management)
 - Git (for version control)
 
 ### Steps to Run the Project
 
 1. **Clone the Repository**
     ```bash
-    git clone https://github.com/yourusername/library-management-system.git
+    git clone https://github.com/myusername/library-management-system.git
     cd library-management-system
     ```
 
 2. **Install Dependencies**
-    If you're using Node.js, install the necessary dependencies with npm or yarn:
-    ```bash
+   git bash
     npm install
-    # or
-    yarn install
+  
     ```
 
-3. **Configure Database**
-    - Create a MongoDB or MySQL database and add your database credentials in the `.env` or configuration file.
-    - Example for MongoDB (`.env`):
-      ```env
-      DB_URI=mongodb://localhost:27017/libraryDB
-      ```
+4. **Configure Database**
+    - Create a  MySQL database and add  database credentials in the `.env` or configuration file.
+      
     - Example for MySQL (`.env`):
       ```env
       DB_HOST=localhost
@@ -82,13 +76,11 @@ The **Library Management System** (LMS) is a software application designed to ma
       DB_NAME=libraryDB
       ```
 
-4. **Start the Application**
+5. **Start the Application**
     ```bash
     npm start
-    # or
-    yarn start
     ```
-    This will start the server and host the library management system on a local development server (usually `http://localhost:3000`).
+    This will start the server and host the library management system on a local development server.
 
 ---
 
